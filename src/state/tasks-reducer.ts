@@ -1,4 +1,5 @@
 import { TaskType } from '../Todolist';
+// @ts-ignore
 import { v1 } from 'uuid';
 import { AddTodolistActionType, RemoveTodolistActionType } from './todolists-reducer';
 import { TasksStateType } from '../App';

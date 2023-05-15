@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import App from './app/App';
 import {Provider} from 'react-redux';
 import {store} from './app/store';
-import {BrowserRouter, HashRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -13,7 +13,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <HashRouter>
-
       <Provider store={store}>
         <App/>
       </Provider>

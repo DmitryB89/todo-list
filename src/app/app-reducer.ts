@@ -2,7 +2,6 @@ import {Dispatch} from "redux";
 import {authAPI} from "../api/todolists-api";
 import {setIsLoggedInAC} from "../features/TodolistsList/auth-reducer";
 import {handleServerAppError, handleServerNetworkError} from "../utils/error-utils";
-import {isInaccessible} from "@testing-library/react";
 
 const initialState: InitialStateType = {
     status: 'idle',
@@ -25,9 +24,7 @@ export const appReducer = (state: InitialStateType = initialState, action: Actio
 
 export type RequestStatusType = 'idle' | 'loading' | 'succeeded' | 'failed'
 export type InitialStateType = {
-    // происходит ли сейчас взаимодействие с сервером
     status: RequestStatusType
-    // если ошибка какая-то глобальная произойдёт - мы запишем текст ошибки сюда
     error: string | null
     isInitialized: boolean
 }

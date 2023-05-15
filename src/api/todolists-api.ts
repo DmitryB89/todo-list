@@ -70,18 +70,6 @@ export type LoginParamsType = {
     captcha?: boolean
 }
 
-// export  type AuthMeResponseType = {
-//     data: AuthMeResponseDataType
-//     resultCode: number
-//     messages: string[]
-// }
-// export  type AuthMeResponseDataType = {
-//     id: number
-//     email: string
-//     login: string
-// }
-
-
 export type TodolistType = {
     id: string
     title: string

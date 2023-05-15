@@ -7,7 +7,6 @@
     <list default="true" id="8706ed54-5bdc-4c56-9bd6-066133c2ce36" name="Changes" comment="feature: Login/Logout pages adgit ded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <workItem from="1680946881047" duration="15832000" />
       <workItem from="1681031175673" duration="4000" />
       <workItem from="1682788776533" duration="489000" />
-      <workItem from="1684143207588" duration="2297000" />
+      <workItem from="1684143207588" duration="3026000" />
     </task>
     <task id="LOCAL-00001" summary="feature: Login/Logout pages added">
       <created>1680965603196</created>
